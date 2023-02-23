@@ -1,0 +1,41 @@
+{
+   "members": [
+     {
+       "id": 1,
+       "name": "Bill Mahoney",
+       "photo": "./src/assets/images/photo1.png",
+       "position": "Product owner"
+     },
+     {
+       "id": 2,
+       "name": "Saba Cabrera",
+       "photo": "./src/assets/images/photo2.png",
+       "position": "Art director"
+     },
+     {
+       "id": 3,
+       "name": "Shae Le",
+       "photo": "./src/assets/images/photo3.png",
+       "position": "techlead"
+     },
+     {
+       "id": 4,
+       "name": "Skylah Lu",
+       "photo": "./src/assets/images/photo4.png",
+       "position": "UX Designer"
+     },
+     {
+       "id": 5,
+       "name": "Griff Richards",
+       "photo": "./src/assets/images/photo5.png",
+       "position": "Developer"
+     },
+     {
+       "id": 6,
+       "name": "Stan John",
+       "photo": "./src/assets/images/photo6.png",
+       "position": "Developer"
+     }
+   ]
+ }
+ 

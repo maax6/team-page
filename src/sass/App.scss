@@ -1,7 +1,7 @@
 #root {
  max-width: 1280px;
  margin: 0 auto;
- padding: 2rem;
+ padding: 1rem;
  text-align: left;
  font-family: "Poppins", sans-serif;
 }
@@ -42,10 +42,10 @@
    line-height: 21px;
    color: #000000;
    @media screen and (min-width: 1200px) {
-    font-size: 18px;
-    line-height: 27px;
-  }
-   margin-block-start: 0 ;
+     font-size: 18px;
+     line-height: 27px;
+    }
+    margin-block-start: 0 ;
   }
  }
 }
