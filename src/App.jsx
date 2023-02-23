@@ -2,20 +2,22 @@ import membersData from './assets/members.json'
 import './sass/App.scss'
 
 function App() {
-   const members = membersData.members;
-   console.log(members);
-   const memberCards = members.map((member, index) => (
-      <div className="member-card" key={index}>
-         <p className="member-card__position">{member.position}</p>
-         <img
-            src={member.photo}
-            alt={member.name}
-            className="member-card__photo"
-         />
-         <figcaption className="member-card__name">{member.name}</figcaption>
+   const members = membersData.members
+   console.log(members)
+   const memberCards = members.map((member) => (
+      <div className="member__card" key={member.id}>
+         <p className="member__card__position">{member.position}</p>
+         <div className='member__card__photo'>
+            <img
+               src={member.photo}
+               alt={member.name}
+               className="member__card__photo__img"
+            />
+            <figcaption className="member__card__photo_name">{member.name}</figcaption>
+         </div>
       </div>
    ))
-   
+
    return (
       <div className="App">
          <header className="header">
@@ -38,7 +40,7 @@ function App() {
                </p>
             </div>
          </header>
-         <div className="member-cards">{memberCards}</div>
+         <div className="member">{memberCards}</div>
       </div>
    )
 }
