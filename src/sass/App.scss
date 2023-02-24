@@ -6,15 +6,17 @@
    font-family: 'Poppins', sans-serif;
 }
 .header {
-   display: flex;
-   flex-wrap: wrap;
-   flex-direction: row;
-   width: 100%;
-   column-gap: 215px;
+	display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    column-gap: 45px;
+    max-width: 1200px;
+    justify-content: space-between;
+
+
    @media screen and (min-width: 1063px) {
-      justify-content: center;
-      margin-top: 76px;
       display: flex;
+      padding: 46px;
    }
    &__h1 {
       font-family: 'PT Serif';
@@ -56,12 +58,14 @@
 }
 
 .member {
-   display: flex;
-   flex-wrap: wrap;
-   flex-direction: row;
-   width: 100%;
-   justify-content: center;
-
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   gap: 1em;
+   @media screen and (min-width: 720px) {
+      grid-template-columns: 1fr 1fr 1fr;
+	  padding: 46px;
+	  gap: 50px;
+   }
    &__card {
       display: flex;
       flex-direction: row-reverse;
@@ -75,12 +79,19 @@
          font-style: normal;
          font-size: 10px;
          line-height: 13px;
-         margin: 0;
+         margin: 0; 
          text-transform: uppercase;
       }
       &__photo {
          &__img {
+            width: 100%;
             max-width: 138px;
+            @media screen and (min-width: 450px) {
+            max-width: 170px;
+			}
+            @media screen and (min-width: 768px) {
+               max-width: 238px;
+            }
          }
          &_name {
             font-family: 'Poppins';
