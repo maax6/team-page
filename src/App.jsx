@@ -1,4 +1,5 @@
 import membersData from './assets/members.json'
+
 import './sass/App.scss'
 
 function App() {
@@ -41,7 +42,6 @@ function App() {
             </div>
          </header>
          <div className="member">{memberCards}</div>
-         <footer> created by ⌘ Maxime - devChallenges.io</footer>
       </div>
    )
 }
