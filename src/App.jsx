@@ -41,6 +41,7 @@ function App() {
             </div>
          </header>
          <div className="member">{memberCards}</div>
+         <footer> created by ⌘ Maxime - devChallenges.io</footer>
       </div>
    )
 }
