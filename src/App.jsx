@@ -1,20 +1,21 @@
-import membersData from './assets/members.json'
+import membersData from './members.json'
 import './sass/App.scss'
 
 function App() {
-   const b = JSON.stringify(membersData);
-   const members = JSON.parse(b);
+   const members = membersData.members
    console.log(members)
    const memberCards = members.map((member) => (
       <div className="member__card" key={member.id}>
          <p className="member__card__position">{member.position}</p>
-         <div className='member__card__photo'>
+         <div className="member__card__photo">
             <img
-               src={member.photo+'?url'}
+               src={member.photo}
                alt={member.name}
                className="member__card__photo__img"
             />
-            <figcaption className="member__card__photo_name">{member.name}</figcaption>
+            <figcaption className="member__card__photo_name">
+               {member.name}
+            </figcaption>
          </div>
       </div>
    ))
