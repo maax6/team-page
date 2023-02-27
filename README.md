@@ -21,8 +21,6 @@
 </div>
 
 
-## Overview
-
 
 ![screenshot](https://github.com/maax6/team-page/blob/master/public/img/iphon.png?raw=true)
 ![screenshot](https://github.com/maax6/team-page/blob/master/public/img/tablet.png?raw=true)
@@ -31,8 +29,8 @@
 
 
 
-- You can see my Demo in the link below?
-- I Used grid and :nth-child to display cards. Only three elements are present on the page: a Header, a div to display member's cards and a small footer.
+- You can see my Demo in the link above
+- I used grid and :nth-child to display cards. Only three elements are present on the page: a Header, a div to display member's cards and a small footer.
 - I noted that importing images with vite, you have to use "img" folder in SRC during dev. After building for production images are accessible in "public" folder. You can link images with relative or absolute paths.
 
 ### Built With
