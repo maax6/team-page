@@ -24,9 +24,9 @@
 ## Overview
 
 
-![screenshot](https://github.com/maax6/team-page/blob/master/src/img/iphon.png?raw=true)
-![screenshot](https://github.com/maax6/team-page/blob/master/src/img/tablet.png?raw=true)
-![screenshot](https://github.com/maax6/team-page/blob/master/src/img/macbookair.png?raw=true)
+![screenshot](https://github.com/maax6/team-page/blob/master/public/img/iphon.png?raw=true)
+![screenshot](https://github.com/maax6/team-page/blob/master/public/img/tablet.png?raw=true)
+![screenshot](https://github.com/maax6/team-page/blob/master/public/img/macbookair.png?raw=true)
 
 
 
