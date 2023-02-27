@@ -20,17 +20,6 @@
   </h3>
 </div>
 
-<!-- TABLE OF CONTENTS -->
-
-## Table of Contents
-
-- [Overview](#overview)
-- [Built With](#built-with)
-- [Features](#features)
-- [Contact](#contact)
-- [Acknowledgements](#acknowledgements)
-
-<!-- OVERVIEW -->
 
 ## Overview
 
@@ -38,9 +27,11 @@
 ![screenshot](https://github.com/maax6/team-page/blob/master/src/img/iphon.png?raw=true)
 ![screenshot](https://github.com/maax6/team-page/blob/master/src/img/tablet.png?raw=true)
 ![screenshot](https://github.com/maax6/team-page/blob/master/src/img/macbookair.png?raw=true)
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
-- You can see my demo in the link below?
+
+
+
+- You can see my Demo in the link below?
 - I Used grid and :nth-child to display cards. Only three elements are present on the page: a Header, a div to display member's cards and a small footer.
 - I noted that importing images with vite, you have to use "img" folder in SRC during dev. After building for production images are accessible in "public" folder. You can link images with relative or absolute paths.
 
