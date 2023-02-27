@@ -42,7 +42,7 @@
 
 
 
-- You can see my demo in the link below
+- You can see my demo in the link above.
 - I used grid and :nth-child to display cards. Only three elements are present on the page: a Header, a div to display member's cards and a small footer.
 - I noted that importing images with vite, you have to use "img" folder in SRC during dev. After building for production images are accessible in "public" folder. You can link images with relative or absolute paths.
 
